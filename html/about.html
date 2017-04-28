@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+    <title>College Of Education</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../js/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="../js/jquery.stellar.js"></script>
+    <script src="../js/scrip.js"></script>
+
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .navbar {
+        border: none;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .nav li a {
+        font-family: Helvetica;
+        font-size: 11px;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffc04d;
+    }
+    
+    .navbar-toggle {
+        border-color: #000000;
+    }
+    
+    .navbar-toggle ul {
+        border-color: #a1a1a1;
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color: #000000;
+    }
+    
+    .dropdown-menu {
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: #add8e6;
+    }
+    
+    .container .banner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .panel-heading-active {
+        transition: all .5s;
+        background-color: #ffc04d !important;
+    }
+
+</style>
+
+
+<body>
+    <!-- NAVBAR================================================== -->
+    <div class="banner">
+        <img class="img-responsive" src="../img/banner1.png">
+    </div>
+    <nav class="navbar" data-spy="affix" data-offset-top="130" style="z-index:999;">
+        <div class="cont container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">TEACHER EDUCATION</a>
+                        <ul class="drop dropdown-menu">
+                            <li><a href="secondaryed.html">Secondary Education</a></li>
+                            <li><a href="elemed.html">Elementary Education</a></li>
+                            <li><a href="certpro.html">Certificate Program</a></li>
+                            <li><a href="labschool.html">Laboratory School</a></li>
+                            <li><a href="teacheremp.html">Teacher Empowerment Program</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="foodtech.html">FOOD TECHNOLOGY</a></li>
+                    <li><a href="nutanddie.html">NUTRITION AND DIETETICS</a></li>
+                    <li><a href="libsci.html">LIBRARY AND INFORMATION SCIENCE</a></li>
+                    <li><a href="fildept.html">FILIPINO DEPARTMENT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">OUR PARTNERS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Alumni</a></li>
+                            <li><a href="#">Employers</a></li>
+                            <li><a href="#">Parents</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">SUPPORT SERVICES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="comdev.html">Community Development</a></li>
+                            <li><a href="counselingandcareer.html">Counseling and Career</a></li>
+                            <li><a href="crisis.html">Crisis Management</a></li>
+                            <li><a href="internationalization.html">Internationalization</a></li>
+                            <li><a href="laboratories.html">Laboratories</a></li>
+                            <li><a href="library.html">Library</a></li>
+                            <li><a href="nutritionclinic.html">Nutrition Clinic</a></li>
+                            <li><a href="scholarship.html">Scholarship</a></li>
+                            <li><a href="sdwb.html">Student Welfare and <br>Development</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MISSION & VISION OF THE COLLEGE</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <b>MISSION</b>
+                        <br> Engage in the formation of authentic and mature Christian educators, food technologists, nutritionist-dietitians, and library and information professionals endowed with a sense of social responsibility and a desire for leadership in the spirit of service in their fields of specialization.
+                        <br><br>
+                        <b>VISION</b>
+                        <br> An innovative college informed by competence, commitment, and compassion
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">COLLEGE GOALS AND PHILOSOPHY</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <b>GOALS</b>
+                        <br> 1. Prepare Christian educators with needed basic general education coupled with an area of specialization and equipped with sound pedagogical theories and 21st century skills necessary for effective delivery of teaching and learning processes in basic education level;
+                        <br><br> 2. Form Nutritionist-Dietitians and Food Technologists endowed with conceptual, technical, and human relations skills to be able to contribute to the improvement of the nutritional status of the Filipinos and the advancement of knowledge frontiers through sustained and meaningful engagement in scientific researches geared toward the development of food-related industry in the country.
+                        <br><br> 3. Provide prospective information professionals with the necessary competencies and technology-enhanced skills for effective delivery of relevant, functional, and state-of-the-art library and information services vis-à-vis the systematic organization, conservation, preservation, and restoration of books, historical and cultural documents and other intellectual properties.
+                        <br><br>
+                        <b>PHILOSOPHY</b>
+                        <br> Bringing ideas to life through innovative breakthroughs
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">ORGANIZATIONAL CHART</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">PROJECT INITIATIVES</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">HISTORY</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        The College of Education was founded under the direct inspiration of Rev. Fr. Silvestre Sancho, O.P., first Dean of the College, and the official direction of Rev. Fr. Manuel Arellano, O.P., Rector Magnificus of the University. During its first year, the College held classes at the old Santo Tomas edifice in Intramuros.
+
+                        <br><br><br>
+
+                        <h4 align="center">Laying Down the Foundation (1927-1941): Our Gift of Love</h4>
+                        <b>1927</b><br> The college moved to the new UST campus in España, together with the other colleges and faculties.
+                        <br><br>
+                        <b>1928</b><br> The university opened the Laboratory High School of the College of Education
+                        <br><br>
+                        <b>1931</b><br> The College offered a new course leading to Bachelor of Science in Home Economics
+                        <br><br>
+                        <b>1940</b><br> The University opened a Junior Normal Department which offered a two-year course leading to an Elementary Teacher Certificate
+                        <br><br>
+                        <b>1941</b><br> A new laboratory School for Normal School Students was added and the Normal School was integrated into the College of Education as the Elementary Training Department.
+
+                        <br><br><br>
+
+                        <h4 align="center">Facing the Perils of Change (1942-1945): Our Gift of Faith</h4>
+                        <b>During the Pacific War</b><br> The building which was constructed for the College of Education was occupied by the 120th Military Hospital. The College temporarily occupied the Santa Catalina College in Legarda Street, some blocks away from the UST Compound.
+                        <br><br>
+                        <b>1945</b><br> The College reopened despite difficult circumstances.
+
+                        <br><br><br>
+
+                        <h4 align="center">Restructuring Delivery Services (1946-1992): Our Gift of Hope</h4>
+                        <b>1946</b><br> The College which held classes in the Main Building, introduced new subjects leading to a Bachelor of Science in Education.
+                        <br><br> Because of its large number of students, the UST High School Department became independent and has been on its own since then. The Education High School was opened as a training department for Education students with Prof. Caridad Z. Sevilla as its first Principal.
+                        <br><br>
+                        <b>1952</b><br> The Elementary Teacher Certificate was changed to four-year course leading to Bachelor of Science in Elementary Education, major in Kindergarten, Physical Education, and Pilipino.
+                        <br><br>
+                        <b>1957</b><br> The Bachelor of Science in Education major in Foods and Nutrition was changed to Bachelor of Science in Foods and Nutrition.
+                        <br><br>
+                        <b>1967</b><br> The Education High School transferred to a small building in front of the UST Pay Hospital.
+                        <br><br>
+                        <b>1970</b><br> The Home Economics curriculum, was restructured to create the Institute of Nutrition, Food Science, and Home Economics.
+                        <br><br> The Education High School was transferred to the Education building for better facilities. The former site of EHS was converted to a playground and parking lot.
+                        <br><br> Dr. Lourdes J. Custodio, Dean of the College of Education, initiated the pilot classes or a personalized education program for both elementary and high school.
+                        <br><br> The College was chosen as one of the Regional Staff Development Centers (RSDC) to serve as permanent education centers for the country’s teachers of science, mathematics, social sciences, and languages in Metro Manila and Southern Luzon.
+                        <br><br>
+                        <b>1974</b><br> The College offered new majors in Chemistry and School Guidance and Character Education. It also pioneered vocational courses, namely: two-year course in Certificate in Practical Arts and Practical Dietetics, and one-year course in Tourism.
+                        <br><br> Fr. Antonio Gonzalez, O.P. became the first Regent of the College.
+                        <br><br>
+                        <b>1977</b><br> The one-year course in Tourism was changed to a two-year course leading to a Certificate in Tourism, and Hotel Restaurant Management.
+                        <br><br>
+                        <b>1980</b><br> The College phased out its vocational courses as well as the Institute of Nutrition. Instead, it offered a four-year programs leading to Bachelor of Science in Tourism (BST), Nutrition and Dietetics (BSND), and Hotel and Restaurant Management (BSHRM).
+                        <br><br>
+                        <b>1986</b><br> The College constructed its Mini-Hotel, located at the ground floor of the building.
+                        <br><br>
+                        <b>1992</b><br> The hallway between the former canteen and the food laboratory was converted into the College Chapel.
+
+                        <br><br><br>
+
+                        <h4 align="center">Developing a Culture of Excellence (1993-2008): Our Gift of Response-ability</h4>
+                        <b>1993</b><br> The Computer Laboratory was constructed to serve the needs of the BSE-Computer Technology majors.
+                        <br><br> The Education Program of the College first applied for accreditation and was given its Level I accredited status by the Philippine Association of Colleges and Universities Commission on Accreditation (PACUCOA).
+                        <br><br>
+                        <b>1998</b><br> The Education program earned a Level II status. The College first launched its website.
+                        <br><br>
+                        <b>1999</b><br> The College constructed a Learning Resource Center (LRC) to serve the needs of IT-based curricular offerings.
+                        <br><br>
+                        <b>2000</b><br> The Department of Tourism and KTC Tours Inc. opened the UST-STA Travel. Aside from being a booking agent, this served as a practicum venue for Tourism students.
+                        <br><br> The Nutrition Clinic, located at the Laboratory Annex, was established to give free nutrition consultation.
+                        <br><br>
+                        <b>2001</b><br> The Professional Regulation Commission (PRC) recognized the College of Education as second in ranking among the 196 schools with 100 or more examinees in the Licensure Examination for Teachers in the secondary level.
+                        <br><br> The Elementary and High School Library, with provision for a playroom for pre-schoolers, was constructed. This replaced the formerly separate libraries of two departments.
+                        <br><br>
+                        <b>2002</b><br> The AB-BSE, major in social science (in collaboration with the Faculty of Arts and Letters) program was introduced. This double degree program was purported to give its graduates more job opportunities upon graduation.
+                        <br><br>
+                        <b>2003</b><br> The Department of Food Science and Nutrition was dismembered into two distinct units, namely: the Department of Nutrition and Dietetics and the Department of Food Technology.
+                        <br><br>
+                        <b>2004</b><br> All programs offered by the College achieved accredited status.
+                        <br><br>
+                        <b>2005</b><br> The New Teacher Education Curriculum (CMO 30 s. 2004) was implemented in the First Year level.
+                        <br><br>
+                        <b>2006</b><br> The Bachelor of Library and Information Science (BLIS) was introduced as an offshoot of the Bachelor of Secondary Education Major in Library Science.
+                        <br><br>
+                        <b>2007</b><br> The Departments Tourism and Hotel and Restaurant Management were separated from the College of Education and became the Institute of Tourism and Hospitality Management (ITHM).
+                        <br><br>
+                        <b>2008</b><br> The College of Education was recognized by the Commission on Higher Education and the Department of Education as a Center of Training (COT) for DepEd Certificate and INSET Programs. It was also identified as a Center of Excellence (COE) in Teacher Education for a period of three years, from June 2, 2008 to June 2, 2011.
+                        <br><br> In the academic year 2008-09, the Bachelor of Elementary Education (BEEd) and the Bachelor of Secondary Education (BSEd) programs have been granted the Center of Excellence (COE) status the stringent evaluation of the Commission on Higher Education (CHEd).
+
+                        <br><br><br>
+
+                        <h4 align="center">Sustaining a Culture of Excellence (2008-2014): Our Gift of Integrity</h4>
+                        <b>2009</b><br> The College conferred the very first graduates of BEEd Major in Special Education.
+                        <br><br>
+                        <b>2010</b><br> The UST-EHS (College of Education’s Laboratory High School) adopted McTighe and Wiggins Understanding by Design (UBD) framework in the instructional delivery.
+                        <br><br>
+                        <b>2011</b><br> The Bachelor of Elementary Education and Bachelor of Secondary Education programs of the College achieved Level III PACUCOA (Philippine Association of Colleges and Universities Commission on Accreditation) accreditation. A Level II for Bachelor of Science in Nutrition and Dietetics and Bachelor of Science in Food Technology.
+                        <br><br> The College graduated its Quadricentennial scholars, the brain child of Fr. Ernesto M. Arceo, O.P., Rector Magnificus.
+                        <br><br> Due to the changes in the Secondary Education curriculum, the AB-BSE program ended. The last batch of the AB BSE program graduated, completing a total of six batches from year 2002.
+                        <br><br>
+                        <b>2012</b><br> In July 2012 board exams for nutritionists and dietitians, U.S.T. was declared as the second top-performing school with 93 out of 99 examinees who passed (93.94% passing rate). Three Thomasians made it to the Top 10 Examinees. In September 2012, U.S.T. was recognized by the Professional Regulation Commission as a top performing school in the elementary and secondary education levels. In the Elementary Level, U.S.T. was the SECOND TOP PERFORMING SCHOOL with 136 out of 138 examinees who passed the exam (98.55% overall passing rate). Likewise, U.S.T. was the NUMBER ONE SCHOOL on the list of THE TOP PERFORMING SCHOOLS in the Secondary Level with 160 out of 166 new Thomasian high school teachers (96.39% overall passing rate).
+                        <br><br> In November 2012, U.S.T. was one of the 3 top performing schools in the November 2012 Librarian Board Exams with 31 out of 38 Thomasians who passed the test (81.58% passing rate).
+                        <br><br>
+                        <b>2013</b><br> The Outcomes-Based Teaching-Learning Design (OBTL) was implemented in the first year level.
+                        <br><br> The Bachelor of Science in Nutrition and Dietetics and Bachelor of Science in Food Technology achieved Level III re-accredited status.
+                        <br><br>
+                        <b>2014</b><br> The last batch of BSEd Major in MAPEH graduated.
+                        <br><br> The Filipino Department was absorbed by the college from the Academic Affairs.
+                        <br><br> The college signed a manifesto for teacher quality initiated by the Philippine Business for Education (PBEd).
+                        <br><br> The Elementary Education Department of the UST-COE entered into an agreement with PORTICUS, an international consultancy network, for a research project on inclusive education.
+
+                        <br><br><br>
+
+                        <h4 align="center">Transcending Excellence through Innovation (2015-present): Our Gift of Wisdom</h4>
+                        <b>2015</b><br> The Secondary Education, Elementary Education, Nutrition & Dietetics, and Food Technology programs receive Level IV accredited status for the period June 2015-June 2020 from the Philippine Association of Colleges and Universities Commission on Accreditation. The Food Technology program was the first to be granted such level in the National Capital Region and the Philippines.
+                        <br><br> The Library and Information Science program was declared as Center of Development by the Commission on Higher Education.
+                        <br><br> The College of Education established a strong partnership with the Metrobank Foundation – Network of Outstanding Teachers (NOTED).
+                        <br><br> Through a joint initiative, the College of Education, the UST Educational Technology Center and the United Nations Educational, Scientific and Cultural Organization (UNESCO) implemented the “Teacher Capacity Building Program on ICT Integration in the Classroom”. The UST Educational Technology Center served as a Resource Distribution Training Center of UNESCO-Bangkok.
+                        <br><br> UST garnered first place in the list of top performing schools in the Licensure Examination for Teachers (LET) in both elementary level and secondary levels; and second in the Nutrition and Dietetics Board.
+                        <br><br>
+                        <b>2016</b><br> Through the College of Education, a memorandum of understanding was signed by the University of Santo Tomas and the Southeast Asian Ministers of Education Organization (SEAMEO) – Innotech.
+                        <br><br> The Teacher Education program retained its Center of Excellence status for the period April 1, 2016 - December 21, 2018.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">ADMINISTRATORS</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+						<p>Prof. Allan B. de Guzman, Ph.D.<br>
+						Asst. Prof. Kashmer T. Cruz<br>
+						Mr. Alvin Ringgo C. Reyes<br>
+						Asst. Prof. Cristina C. Sagum<br>
+						Asst. Prof. Elizabeth H. Arenas, Ph.D.<br>
+						Assoc. Prof. Zendel Rosario M. Taruc, Ph.D</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">STATISTICS</a>
+                    </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">LOCATION MAP AND CONTACT INFORMATION</a>
+                    </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">OUR PEOPLE</a>
+                    </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul>
+                            <li><a href="administrators.html">Administrators</a></li>
+                            <li><a href="teachingstaff.html">Teaching Staff</a></li>
+                            <li><a href="supportstaff.html">Support Staff</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">LINKAGES</a>
+                    </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">FACULTY HANDBOOK</a>
+                    </h4>
+                </div>
+                <div id="collapse11" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p>
+            <br><br><br>
+        </p>
+    </div>
+
+    <script>
+        $('#accordion .panel').on("click", function() {
+            $(this).siblings().find(".panel-heading").removeClass("panel-heading-active");
+            $(this).find(".panel-heading").toggleClass("panel-heading-active");
+        });
+
+    </script>
+
+</body>
+
+</html>
